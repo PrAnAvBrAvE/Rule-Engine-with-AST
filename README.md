@@ -8,7 +8,10 @@ Build a flexible rule engine to evaluate user attributes against rules, using AS
 ## Structure
 - **Client**: React frontend (`client` folder)
 - **Server**: Node.js backend (`server` folder)
-- **Database**: MongoDB for storing rules and metadata
+
+## Bonus Feature -
+Added error handling for incorrect rules and invalid json input for validation
+
 
 ## Data Structure
 AST nodes have the following structure:
